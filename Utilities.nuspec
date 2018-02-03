@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GW.Common.Utilities</id>
+    <version>$version$</version>
+    <title>GW.Common.Utilities</title>
+    <authors>Garrett Wong</authors>
+    <owners>Garrett Wong</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/garrettwong/Utilities</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Wv_logo_proposal_flying_plane_wo_text_favicon.png/1025px-Wv_logo_proposal_flying_plane_wo_text_favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Common utilities for application development: Emailer, Simple Memory Cache, Impersonation, File Writer.</description>
+    <releaseNotes>Emailer, MemoryCacher, Impersonation, FileWriter.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>GW GBase Utilities Common Emailer</tags>
+  </metadata>
+
+  <files>
+    <file src="Content\app.config.install.xdt" target="content" />
+    <file src="Content\web.config.install.xdt" target="content" />
+  </files>
+</package>

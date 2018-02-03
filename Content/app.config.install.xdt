@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <system.webServer>
+    <modules>
+      <add key="WebConfigModule" type="Sample.AppConfigModule" />
+    </modules>
+  </system.webServer>
+
+  <appSettings>
+    <add key="Utilities_SmtpRelay" value="[SMTP_SERVER]" xdt:Transform="Insert" />
+  </appSettings>
+</configuration>
